@@ -1,0 +1,25 @@
+{
+  "name": "mambo-mini-custom-controllers",
+  "version": "1.0.0",
+  "description": "Different means of interacing with and controlling the parrot mambo minidrone using the javascript and the web",
+  "main": "drone-controller-server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "drone",
+    "web",
+    "bluetooth",
+    "IoT",
+    "JavaScript",
+    "talk"
+  ],
+  "author": "Nhlanhla Lucky Nkosi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.0",
+    "twit": "^2.2.11"
+  }
+}

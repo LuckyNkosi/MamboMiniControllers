@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leap: Wavey Wavey</title>
+
+    <script src="../lib/leap-1.0.0.js"></script>
+    <script type="module" src="leap-script.js"></script>
+    <style>
+      body {
+        line-height: 2em;
+        font-size: 2em;
+        font-family: Helvetica;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <button type="button" onclick="connectToDrone()">Connect To Drone</button>
+      <button type="button" onclick="takeOff()">Take Off</button>
+      <button type="button" onclick="disconnectFromDrone()">Disconnect</button>
+    </div>
+
+    <div>
+        
+        <button type="button" onclick="hover()">Hover</button>
+        <button type="button" onclick="land()">Safe Land</button>
+    </div>
+
+    <div id="hand"></div>
+    <div id="roll"></div>
+    <div id="yaw"></div>
+    <div id="pitch"></div>
+  </body>
+</html>
