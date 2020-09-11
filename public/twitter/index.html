@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script type="module" src="../lib/drone-init.js"></script>
+    <script type="module" src="../lib/drone-control.js"></script>
     <!-- <script src="/lib/socket.io.js"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
@@ -12,17 +12,17 @@
     <title>Twitter Feed Demo</title>
   </head>
   <body>
-    <div>
-      <button type="button" onclick="takeOff()">Take Off</button>
-      <button type="button" onclick="connectToDrone()">Connect To Drone</button>
-      <button type="button" onclick="disconnectFromDrone()">Disconnect</button>
-    </div>
+<div>
+  <button type="button" onclick="takeOff()">Take Off</button>
+  <button type="button" onclick="connectToDrone()">Connect To Drone</button>
+  <button type="button" onclick="disconnectFromDrone()">Disconnect</button>
+</div>
 
-    <div>
-      <button type="button" onclick="hover()">Hover</button>
-      <button type="button" onclick="land()">Safe Land</button>
-      <button type="button" onclick="start()">Start Twitter Demo</button>
-    </div>
+<div>
+  <button type="button" onclick="hover()">Hover</button>
+  <button type="button" onclick="land()">Safe Land</button>
+  <button type="button" onclick="start()">Start Twitter Demo</button>
+</div>
 
     <div>
       <h1>Time: <span id="time"></span></h1>

@@ -26,15 +26,15 @@
     }
 
     function fetchTweets(){        
-        socket.emit('GetTweets', '#SowetoJS');
+        socket.emit('GetTweets', '#jsday');
     }
     function ExecuteDroneAction(intValue){
         switch (intValue) {
-            case 0: drone.moveLeft();break;
-            case 1: drone.moveRight();break;
-            case 2: drone.flip();break;
-            case 3: drone.moveForwards();break;
-            case 4: drone.moveBackwards();break;
+            case 0: drone.moveLeft();
+            case 1: drone.moveRight();
+            case 2: drone.flip();
+            case 3: drone.moveForwards();
+            case 4: drone.moveBackwards();
 
             default:
                 break;

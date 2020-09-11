@@ -519,9 +519,12 @@ export class ParrotDrone {
         this._setSpeed("pitch", -DEFAULT_SPEED, DEFAULT_DRIVE_STEPS);
       }),
       (this.moveRight = function() {
+        console.log("right...");
+
         this._setSpeed("roll", DEFAULT_SPEED, DEFAULT_DRIVE_STEPS);
       }),
       (this.moveLeft = function() {
+        console.log("left...");
         this._setSpeed("roll", -DEFAULT_SPEED, DEFAULT_DRIVE_STEPS);
       }),
       (this.twistLeft = function() {
